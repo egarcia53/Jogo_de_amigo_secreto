@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+/*Reset CSS e Geral*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.card {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 90%;
+    max-width: 500px;
+    min-height:  450px;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #00FFFF;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card__text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card__text h2 {
+    padding: 5px;
+}
+
+.card__text p {
+    color: #a3a5ae;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.card  button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffd500;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#chute {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#btn__chute:hover {
+    background-color: #e6c200;
+}
+
+#btn__chute:active {
+    background-color: #00FFFF;
+    color: #FFFFFF;
+    transform: translateY(5px);
+}
+
+#btn__novo {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn__novo:hover {
+    background-color: #4cae4c;
+}
+
+#btn__novo:active {
+    background-color: #3d8b3d;
+    transform: translateY(2px);
+}
+
+.image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-width: 70px;
+    opacity: 0.8;
+}
+
+
