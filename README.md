@@ -1,6 +1,7 @@
 # Jogo da Adivinhação - Número Secreto (1 a 100)
 
-![Preview do jogo](preview.png)  
+![Preview do jogo](preview<img width="661" height="633" alt="preview" src="https://github.com/user-attachments/assets/b0389404-eb7d-420f-9c1c-ca00359a224d" />
+.png)  
 *(Captura de tela do jogo em ação)*
 
 **Atividade Avaliativa**  
